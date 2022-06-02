@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <filter id="Path_2" x="374.709" y="356.605" width="279.582" height="360.79" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="50" input="SourceAlpha"/>
+      <feGaussianBlur result="blur"/>
+      <feFlood flood-color="#7a95b9"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_3" x="133.606" y="356.605" width="279.582" height="360.79" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="50" input="SourceAlpha"/>
+      <feGaussianBlur result="blur-2"/>
+      <feFlood flood-color="#88a062"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_1" x="615.812" y="356.605" width="279.582" height="360.79" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="50" input="SourceAlpha"/>
+      <feGaussianBlur result="blur-3"/>
+      <feFlood flood-color="#c296e8"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-Custom_Size_1">
+      <rect width="1024" height="1024"/>
+    </clipPath>
+  </defs>
+  <g id="Custom_Size_1" data-name="Custom Size – 1" clip-path="url(#clip-Custom_Size_1)">
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Path_2)">
+      <path id="Path_2-2" data-name="Path 2" d="M142.029,13.639,213.374,0,71.345,250.94,0,264.58Z" transform="matrix(0.97, 0.26, -0.26, 0.97, 443.19, 356.61)" fill="#fff"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Path_3)">
+      <path id="Path_3-2" data-name="Path 3" d="M142.029,13.639,213.374,0,71.345,250.94,0,264.58Z" transform="matrix(0.97, 0.26, -0.26, 0.97, 202.08, 356.61)" fill="#fff"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Path_1)">
+      <path id="Path_1-2" data-name="Path 1" d="M142.029,13.639,213.374,0,71.345,250.94,0,264.58Z" transform="matrix(0.97, 0.26, -0.26, 0.97, 684.29, 356.61)" fill="#fff"/>
+    </g>
+  </g>
+</svg>
